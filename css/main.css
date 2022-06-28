@@ -346,6 +346,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Arial", sans-serif;
+  background-image: url(../images/body-bg-img.png);
+  background-size: 1494px 1770px;
+  background-repeat: no-repeat;
+  background-position: bottom -690px center;
 }
 
 .container {
@@ -461,4 +465,51 @@ site-header__link {
   color: #FFFFFF;
   background-color: #62e0d9;
   border-radius: 28px;
+}
+
+.intro {
+  background-color: #1b2330;
+  padding-bottom: 136px;
+}
+
+.intro__inner {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.intro__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.intro__item {
+  max-width: 384px;
+}
+
+.piece__img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.piece__title {
+  margin: 0;
+  margin-bottom: 9px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.piece__text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
