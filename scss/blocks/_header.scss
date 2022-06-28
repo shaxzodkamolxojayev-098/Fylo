@@ -1,0 +1,42 @@
+.site-header{
+  background:#181F2B;
+}
+
+.site-header__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 73px 0;
+}
+
+site-header__link{
+  display: block;
+}
+
+.navbar__list{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navbar__item{
+  max-width: 65px;
+  margin-right: 58px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.navbar__item--end{
+  margin-right: 0;
+}
+
+.navbar__link{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
